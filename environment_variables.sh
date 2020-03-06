@@ -1,0 +1,8 @@
+OSP_GUID="8fd7"
+TOWER_GUID="752d"
+opentlc_login="emerson.otzoycun-atos.net"
+OPENTLC_LOGIN="emerson.otzoycun-atos.net"
+GITHUB_REPO="https://github.com/amilcar46/ansible_advance_homework.git"
+JQ_REPO_BASE="http://www.opentlc.com/download/ansible_bootcamp"
+REGION="us-east-1"
+RH_MAIL_ID="emerson.otzoycun*"
