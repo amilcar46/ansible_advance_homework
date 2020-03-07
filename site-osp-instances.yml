@@ -1,4 +1,4 @@
-- hosts: workstation
+- hosts: workstation-8fd7.rhpds.opentlc.com 
   become: yes
   vars_files:
    - ./roles/osp-servers/vars/main.yml
