@@ -21,3 +21,5 @@
     failed_when: "'Ansible has done its job ' not in webpage.content"
     tags:
       - osp.smoke
+  - name: Job Done
+    debug: msg="Homework QA task completed."
