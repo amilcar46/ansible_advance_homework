@@ -1,0 +1,18 @@
+[frontends]
+frontend1 ansible_host=frontend1.4347.example.opentlc.com ansible_connection=ssh ansible_ssh_user=ec2-user ansible_ssh_private_key_file=/root/.ssh/4347key.pem
+
+[apps]
+app1 ansible_host=app1.03e9.example.opentlc.com ansible_connection=ssh ansible_ssh_user=ec2-user ansible_ssh_private_key_file=/root/.ssh/03e9key.pem
+app2 ansible_host=app2.03e9.example.opentlc.com ansible_connection=ssh ansible_ssh_user=ec2-user ansible_ssh_private_key_file=/root/.ssh/03e9key.pem
+
+[appdbs]
+appdb1 ansible_host=appdb1.03e9.example.opentlc.com ansible_connection=ssh ansible_ssh_user=ec2-user ansible_ssh_private_key_file=/root/.ssh/03e9key.pem
+
+[support]
+support1 ansible_host=support1.03e9.example.opentlc.com ansible_connection=ssh ansible_ssh_user=ec2-user ansible_ssh_private_key_file=/root/.ssh/03e9key.pem
+
+[threetierapp:children]
+frontends
+apps
+appdbs
+support
